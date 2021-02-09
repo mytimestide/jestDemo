@@ -1,15 +1,35 @@
 {
   "name": "jesttest",
   "version": "1.0.0",
-  "description": "",
   "main": "dabaojian.js",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "dependencies": {
+    "commitizen": "^4.2.3",
+    "global": "^4.4.0",
     "jest": "^24.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytimestide/jestDemo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mytimestide/jestDemo/issues"
+  },
+  "homepage": "https://github.com/mytimestide/jestDemo#readme",
+  "description": ""
 }
